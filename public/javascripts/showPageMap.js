@@ -1,3 +1,5 @@
+import mapboxgl from 'mapbox-gl';
+
 mapboxgl.accessToken = mapToken;
 const map = new mapboxgl.Map({
     container: 'map',
